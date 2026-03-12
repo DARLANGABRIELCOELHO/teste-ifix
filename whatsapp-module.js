@@ -121,7 +121,7 @@ Observações:
 
             const message = this.generateDirectMessage(selectionInfo);
 
-            const numero = "5515991630531"; // número da iFix
+            const numero = "+5515991852555"; // número da iFix
             const whatsappUrl = `https://wa.me/${numero}?text=${encodeURIComponent(message)}`;
             
             window.open(whatsappUrl, '_blank');
@@ -167,3 +167,4 @@ Observações:
 
 // exportar globalmente
 window.WhatsAppScheduler = WhatsAppScheduler;
+
